@@ -141,7 +141,7 @@ function mouseReleased(){
         saveAction();
         drawing = false;
     }
-}
+} // i thought this function was pretty nice, since it solved the entire issue with the undo and redo by only saving the history when the mouse is released
 
 function repaint(){
     background(bgColourPicker.value());
